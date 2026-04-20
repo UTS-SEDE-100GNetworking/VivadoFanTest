@@ -1,0 +1,32 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3C457F0A3C457F0A",
+      "device": "xc7vx690tffg1157-2",
+      "name": "mainBlock",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1.1"
+    },
+    "design_tree": {},
+    "ports": {
+      "fan": {
+        "direction": "O"
+      },
+      "mgtrefclk0p": {
+        "direction": "I"
+      },
+      "mgtrefclk0n": {
+        "direction": "I"
+      },
+      "mgtrefclk1p": {
+        "direction": "I"
+      },
+      "mgtrefclk1n": {
+        "direction": "I"
+      },
+      "clk25in": {
+        "direction": "I"
+      }
+    }
+  }
+}

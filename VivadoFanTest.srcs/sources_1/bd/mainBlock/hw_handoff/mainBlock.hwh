@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Apr 20 15:38:00 2026" VIVADOVERSION="2019.1.1">
+
+  <SYSTEMINFO ARCH="virtex7" DEVICE="7vx690t" NAME="mainBlock" PACKAGE="ffg1157" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="fan" SIGIS="undef" SIGNAME="External_Ports_mgtrefclk0p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="mgtrefclk0p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="mgtrefclk0p" SIGIS="undef" SIGNAME="External_Ports_mgtrefclk0p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="fan"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="mgtrefclk0n" SIGIS="undef"/>
+    <PORT DIR="I" NAME="mgtrefclk1p" SIGIS="undef"/>
+    <PORT DIR="I" NAME="mgtrefclk1n" SIGIS="undef"/>
+    <PORT DIR="I" NAME="clk25in" SIGIS="undef"/>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES/>
+
+</EDKSYSTEM>

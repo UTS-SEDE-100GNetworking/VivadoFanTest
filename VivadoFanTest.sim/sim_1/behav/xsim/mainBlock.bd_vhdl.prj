@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VivadoFanTest.ip_user_files/bd/mainBlock/sim/mainBlock.vhd" \
+"../../../../VivadoFanTest.srcs/sources_1/bd/mainBlock/hdl/mainBlock_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

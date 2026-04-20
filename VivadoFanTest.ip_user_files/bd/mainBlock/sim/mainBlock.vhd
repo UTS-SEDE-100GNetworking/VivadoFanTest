@@ -1,0 +1,9 @@
+--Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------
+--Tool Version: Vivado v.2019.1.1 (win64) Build 2580384 Sat Jun 29 08:12:21 MDT 2019
+--Date        : Mon Apr 20 15:21:34 2026
+--Host        : UTS036357 running 64-bit major release  (build 9200)
+--Command     : generate_target mainBlock.bd
+--Design      : mainBlock
+--Purpose     : IP block netlist
+----------------------------------------------------------------------------------
