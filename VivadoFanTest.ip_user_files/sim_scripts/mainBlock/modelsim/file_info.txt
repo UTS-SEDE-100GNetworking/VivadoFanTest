@@ -1,1 +1,0 @@
-mainBlock.vhd,vhdl,xil_defaultlib,../../../bd/mainBlock/sim/mainBlock.vhd,
