@@ -1,13 +1,13 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: UTS
+-- Engineer: Jaylen Avtarovski
 -- 
 -- Create Date: 20.04.2026 16:01:55
--- Design Name: 
+-- Design Name: Fan Controller for Virtex7 FPGA
 -- Module Name: topLevel - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
+-- Project Name: Fan Controller for Virtex7 FPGA
+-- Target Devices: Virtex 7
+-- Tool Versions: 2019.1.1
 -- Description: 
 -- 
 -- Dependencies: 
@@ -55,8 +55,9 @@ architecture modulation of top_level is
 BEGIN
 		PROCESS (clk25in) 
 		
-		constant prescaler: integer range 0 to 255 := 196; -- Clock divider for reach  1kHz, change this value 
+		constant prescaler: integer range 0 to 255 := 98; -- Clock divider for reach  1kHz, change this value 
 												           -- with the following equation: clk/(255*frequency)
+														   -- 50MHz Clock is 196, our clock should be 98
 												           
 		constant duty_cycle: std_logic_vector(7 downto 0) := "10000000";
 		
